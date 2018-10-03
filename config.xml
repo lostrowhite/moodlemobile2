@@ -37,6 +37,7 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
     <feature name="StatusBar">
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
@@ -114,9 +115,6 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-clipboard" spec="^1.2.1" />
     <plugin name="nl.kingsquare.cordova.background-audio" spec="^1.0.1" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle">
-        <variable name="SENDER_ID" value="694767596569" />
-    </plugin>
     <plugin name="cordova-plugin-customurlscheme" spec="^4.3.0">
         <variable name="URL_SCHEME" value="moodlemobile" />
     </plugin>
